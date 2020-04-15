@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Tue, 07 Apr 2020 22:48:36 +0800
+Source: linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang
+Binary: linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang linux-libc-dev linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang-dbg
+Architecture: source amd64
+Version: 5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10
+Distribution: bionic
+Urgency: low
+Maintainer: driver <driver@clangbuiltlinux>
+Changed-By: driver <driver@clangbuiltlinux>
+Description:
+ linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang - Linux kernel headers for 5.4.30+google-bbr+v2alpha+55105fea34f3+c
+ linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang - Linux kernel, version 5.4.30+google-bbr+v2alpha+55105fea34f3+clan
+ linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang-dbg - Linux kernel debugging symbols for 5.4.30+google-bbr+v2alpha+5510
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang (5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10) bionic; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 424e2944ca0771b3d7ee590bdbc5ba3ac7893c85 1864 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ a46e5cd7f7c3b2b8ccc0edd2b24d5c2344412e11 177802727 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang.orig.tar.gz
+ 37c44ff3e99b880cb2ee432d526a6ac8ffa4c01b 280945 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.diff.gz
+ 58aa634fc026507a9adf3cc926516fdf0dc34b7c 7430 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.buildinfo
+ 614e10362c74c2d52d293034cc2e985a53f69b7d 11405448 linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 7a491caffc7c0fa15b08bb4372262d75324988a4 60651448 linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 609deca3d44d3596ff9b1685317c2cdcb82ad8a9 1067020 linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+Checksums-Sha256:
+ 1091d4de87e1da0df385e1038de386a604786a1fe26da3c3a4d780b0783db51d 1864 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ 0fd6701f52f2bf073d1ceb2b17bd5671d0535fd4f96d2622be43833cfeb3cacd 177802727 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang.orig.tar.gz
+ 8d821c19c14b446dd6f9c5190fda73cd467b56d393155fa6083ee0be13a34491 280945 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.diff.gz
+ 187456035c40f38b84845c559504bbb1e4efd3d77d60051ace85ad49d6db0a98 7430 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.buildinfo
+ ecf281dc47a1d4a1afba6754e1a1c4bdd1bd36b7593b35ea81a46374cc08007e 11405448 linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 33ef3093ec415fcb71cd140a34883a1bb7431b2bcf283e2f9f2e72381f5c6ab6 60651448 linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 1a42940a6fc6a37f7e0f54e7bd7f649be897ba91a07ffe6d8e9f2b340935ea77 1067020 linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+Files:
+ 1cec31c71aebedc4219b655fbf32ed52 1864 kernel optional linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ f571e7138c5cca15a705380a73e8a52c 177802727 kernel optional linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang.orig.tar.gz
+ 3f996eb762748cc5c15021abbe7e60d2 280945 kernel optional linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.diff.gz
+ c3378468ec84c69a88d816eee4c143fe 7430 kernel optional linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.buildinfo
+ 1acb8b7bfd9115284f06f612e8e45a7d 11405448 kernel optional linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 8468c6e10f30b70fcf6b22e69b8d8803 60651448 kernel optional linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 71f45d6df332e2cf70d49b673c450d42 1067020 devel optional linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb

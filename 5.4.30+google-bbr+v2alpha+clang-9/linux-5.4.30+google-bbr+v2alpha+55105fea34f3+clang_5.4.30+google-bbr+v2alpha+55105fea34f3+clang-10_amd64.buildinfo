@@ -1,0 +1,175 @@
+Format: 1.0
+Source: linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang
+Binary: linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang linux-libc-dev linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang-dbg
+Architecture: amd64 source
+Version: 5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10
+Checksums-Md5:
+ 1cec31c71aebedc4219b655fbf32ed52 1864 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ 1acb8b7bfd9115284f06f612e8e45a7d 11405448 linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 8468c6e10f30b70fcf6b22e69b8d8803 60651448 linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 71f45d6df332e2cf70d49b673c450d42 1067020 linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+Checksums-Sha1:
+ 424e2944ca0771b3d7ee590bdbc5ba3ac7893c85 1864 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ 614e10362c74c2d52d293034cc2e985a53f69b7d 11405448 linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 7a491caffc7c0fa15b08bb4372262d75324988a4 60651448 linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 609deca3d44d3596ff9b1685317c2cdcb82ad8a9 1067020 linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+Checksums-Sha256:
+ 1091d4de87e1da0df385e1038de386a604786a1fe26da3c3a4d780b0783db51d 1864 linux-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10.dsc
+ ecf281dc47a1d4a1afba6754e1a1c4bdd1bd36b7593b35ea81a46374cc08007e 11405448 linux-headers-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 33ef3093ec415fcb71cd140a34883a1bb7431b2bcf283e2f9f2e72381f5c6ab6 60651448 linux-image-5.4.30+google-bbr+v2alpha+55105fea34f3+clang_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+ 1a42940a6fc6a37f7e0f54e7bd7f649be897ba91a07ffe6d8e9f2b340935ea77 1067020 linux-libc-dev_5.4.30+google-bbr+v2alpha+55105fea34f3+clang-10_amd64.deb
+Build-Origin: Ubuntu
+Build-Architecture: amd64
+Build-Date: Tue, 07 Apr 2020 23:12:56 +0800
+Installed-Build-Depends:
+ base-files (= 10.1ubuntu2.8),
+ base-passwd (= 3.5.44),
+ bash (= 4.4.18-2ubuntu1.2),
+ bc (= 1.07.1-2),
+ binutils (= 2.30-21ubuntu1~18.04.2),
+ binutils-common (= 2.30-21ubuntu1~18.04.2),
+ binutils-x86-64-linux-gnu (= 2.30-21ubuntu1~18.04.2),
+ bison (= 2:3.0.4.dfsg-1build1),
+ bsdutils (= 1:2.31.1-0.4ubuntu3.6),
+ build-essential (= 12.4ubuntu1),
+ bzip2 (= 1.0.6-8.1ubuntu0.2),
+ coreutils (= 8.28-1ubuntu1),
+ cpio (= 2.12+dfsg-6ubuntu0.18.04.1),
+ cpp (= 4:7.4.0-1ubuntu2.3),
+ cpp-7 (= 7.5.0-3ubuntu1~18.04),
+ dash (= 0.5.8-2.10),
+ debconf (= 1.5.66ubuntu1),
+ debianutils (= 4.8.4),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.0.5ubuntu2.3),
+ dpkg-dev (= 1.19.0.5ubuntu2.3),
+ e2fsprogs (= 1.44.1-1ubuntu1.3),
+ fdisk (= 2.31.1-0.4ubuntu3.6),
+ findutils (= 4.6.0+git+20170828-2),
+ flex (= 2.6.4-6),
+ g++ (= 4:7.4.0-1ubuntu2.3),
+ g++-7 (= 7.5.0-3ubuntu1~18.04),
+ gcc (= 4:7.4.0-1ubuntu2.3),
+ gcc-10-base (= 10-20200405-0ubuntu1~18.04),
+ gcc-7 (= 7.5.0-3ubuntu1~18.04),
+ gcc-7-base (= 7.5.0-3ubuntu1~18.04),
+ gcc-8-base (= 8.4.0-1ubuntu1~18.04),
+ gcc-9-base (= 9.2.1-17ubuntu1~18.04.1),
+ grep (= 3.1-2build1),
+ gzip (= 1.6-5ubuntu1),
+ hostname (= 3.20),
+ init-system-helpers (= 1.51),
+ install-info (= 6.5.0.dfsg.1-2),
+ kmod (= 24-1ubuntu3.2),
+ libacl1 (= 2.2.52-3build1),
+ libasan4 (= 7.5.0-3ubuntu1~18.04),
+ libatomic1 (= 10-20200405-0ubuntu1~18.04),
+ libattr1 (= 1:2.4.47-2build1),
+ libaudit-common (= 1:2.8.2-1ubuntu1),
+ libaudit1 (= 1:2.8.2-1ubuntu1),
+ libbinutils (= 2.30-21ubuntu1~18.04.2),
+ libbison-dev (= 2:3.0.4.dfsg-1build1),
+ libblkid1 (= 2.31.1-0.4ubuntu3.6),
+ libbz2-1.0 (= 1.0.6-8.1ubuntu0.2),
+ libc-bin (= 2.27-3ubuntu1),
+ libc-dev-bin (= 2.27-3ubuntu1),
+ libc6 (= 2.27-3ubuntu1),
+ libc6-dev (= 2.27-3ubuntu1),
+ libcap-ng0 (= 0.7.7-3.1),
+ libcc1-0 (= 10-20200405-0ubuntu1~18.04),
+ libcilkrts5 (= 7.5.0-3ubuntu1~18.04),
+ libcom-err2 (= 1.44.1-1ubuntu1.3),
+ libdb5.3 (= 5.3.28-13.1ubuntu1.1),
+ libdebconfclient0 (= 0.213ubuntu1),
+ libdpkg-perl (= 1.19.0.5ubuntu2.3),
+ libext2fs2 (= 1.44.1-1ubuntu1.3),
+ libfdisk1 (= 2.31.1-0.4ubuntu3.6),
+ libgcc-7-dev (= 7.5.0-3ubuntu1~18.04),
+ libgcc-s1 (= 10-20200405-0ubuntu1~18.04),
+ libgcc1 (= 1:9.2.1-17ubuntu1~18.04.1),
+ libgcrypt20 (= 1.8.1-4ubuntu1.2),
+ libgdbm-compat4 (= 1.14.1-6),
+ libgdbm5 (= 1.14.1-6),
+ libgmp10 (= 2:6.1.2+dfsg-2),
+ libgomp1 (= 10-20200405-0ubuntu1~18.04),
+ libgpg-error0 (= 1.27-6),
+ libisl19 (= 0.19-1),
+ libitm1 (= 10-20200405-0ubuntu1~18.04),
+ libkmod2 (= 24-1ubuntu3.2),
+ liblsan0 (= 10-20200405-0ubuntu1~18.04),
+ liblz4-1 (= 0.0~r131-2ubuntu3),
+ liblzma5 (= 5.2.2-1.3),
+ libmount1 (= 2.31.1-0.4ubuntu3.6),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx2 (= 8.4.0-1ubuntu1~18.04),
+ libncursesw5 (= 6.1-1ubuntu1.18.04),
+ libpam-modules (= 1.1.8-3.6ubuntu2.18.04.1),
+ libpam-modules-bin (= 1.1.8-3.6ubuntu2.18.04.1),
+ libpam-runtime (= 1.1.8-3.6ubuntu2.18.04.1),
+ libpam0g (= 1.1.8-3.6ubuntu2.18.04.1),
+ libpcre3 (= 2:8.39-9),
+ libperl5.26 (= 5.26.1-6ubuntu0.3),
+ libpopt0 (= 1.16-11),
+ libquadmath0 (= 10-20200405-0ubuntu1~18.04),
+ libreadline7 (= 7.0-3),
+ libselinux1 (= 2.7-2build2),
+ libsigsegv2 (= 2.12-1),
+ libsmartcols1 (= 2.31.1-0.4ubuntu3.6),
+ libss2 (= 1.44.1-1ubuntu1.3),
+ libssl-dev (= 1.1.1-1ubuntu2.1~18.04.5),
+ libssl1.1 (= 1.1.1-1ubuntu2.1~18.04.5),
+ libstdc++-7-dev (= 7.5.0-3ubuntu1~18.04),
+ libstdc++6 (= 10-20200405-0ubuntu1~18.04),
+ libsystemd0 (= 237-3ubuntu10.39),
+ libtinfo5 (= 6.1-1ubuntu1.18.04),
+ libtsan0 (= 10-20200405-0ubuntu1~18.04),
+ libubsan0 (= 7.5.0-3ubuntu1~18.04),
+ libudev1 (= 237-3ubuntu10.39),
+ libuuid1 (= 2.31.1-0.4ubuntu3.6),
+ libzstd1 (= 1.3.3+dfsg-2ubuntu1.1),
+ linux-libc-dev (= 4.15.0-96.97),
+ login (= 1:4.5-1ubuntu2),
+ lsb-base (= 9.20170808ubuntu1),
+ m4 (= 1.4.18-1),
+ make (= 4.1-9.1ubuntu1),
+ mawk (= 1.3.3-17ubuntu3),
+ ncurses-base (= 6.1-1ubuntu1.18.04),
+ ncurses-bin (= 6.1-1ubuntu1.18.04),
+ patch (= 2.7.6-2ubuntu1.1),
+ perl (= 5.26.1-6ubuntu0.3),
+ perl-base (= 5.26.1-6ubuntu0.3),
+ perl-modules-5.26 (= 5.26.1-6ubuntu0.3),
+ readline-common (= 7.0-3),
+ rsync (= 3.1.2-2.1ubuntu1.1),
+ sed (= 4.4-2),
+ sysvinit-utils (= 2.88dsf-59.10ubuntu1),
+ tar (= 1.29b-2ubuntu0.1),
+ util-linux (= 2.31.1-0.4ubuntu3.6),
+ xz-utils (= 5.2.2-1.3),
+ zlib1g (= 1:1.2.11.dfsg-0ubuntu2)
+Environment:
+ AR="llvm-ar"
+ AS="llvm-as"
+ AWK="awk"
+ CC="clang"
+ CPP="clang -E"
+ DEB_BUILD_OPTIONS="parallel=12"
+ LANG="en_US.UTF-8"
+ LC_ADDRESS="en_US.UTF-8"
+ LC_COLLATE="C"
+ LC_CTYPE="UTF-8"
+ LC_IDENTIFICATION="en_US.UTF-8"
+ LC_MEASUREMENT="en_US.UTF-8"
+ LC_MONETARY="en_US.UTF-8"
+ LC_NAME="en_US.UTF-8"
+ LC_NUMERIC="C"
+ LC_PAPER="en_US.UTF-8"
+ LC_TELEPHONE="en_US.UTF-8"
+ LC_TIME="en_US.UTF-8"
+ LD="ld.lld"
+ LEX="flex"
+ MAKE="make"
+ MAKEFLAGS="rR -j --jobserver-fds=3,4 --no-print-directory -- CC=clang LD=ld.lld AS=llvm-as AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump OBJSIZE=llvm-size READELF=llvm-readelf HOSTCC=clang HOSTLD=ld.lld KCFLAGS=-Wno-implicit-fallthrough INSTALL_MOD_STRIP=1 LOCALVERSION=+google-bbr+v2alpha+55105fea34f3+clang"
+ SOURCE_DATE_EPOCH="1586270916"
+ YACC="bison"
